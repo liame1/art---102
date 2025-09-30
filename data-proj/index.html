@@ -50,6 +50,7 @@
             z-index: 100;
             color: rgb(63, 59, 59);
             text-align: center;
+            pointer-events: none;
         }
 
         .control-item {
@@ -79,28 +80,32 @@
         }
 
         #img-1 {
-            position: absolute;
-            transform: translate(400%, 230%);
+            position: fixed;
+            right: 1em;
+            bottom: 1em;
             width: 15em;
             pointer-events: none;
         }
 
         #img-2 {
-            position: absolute;
-            transform: translate(120%, -80%);
+            position: fixed;
+            top: 0.5em;
+            left: 23em;
             pointer-events: none;
             width: 8em;
         }
 
         #img-3 {
-            position: absolute;
-            transform: translate(660%, 40%);
+            position: fixed;
+            right: 1em;
+            bottom: 18em;
             width: 10em;
             pointer-events: none;
         }
         #img-4 {
-            position: absolute;
-            transform: translate(-65%, 170%);
+            position: fixed;
+            bottom: 3em;
+            left: 4em;
             width: 15em;
             pointer-events: none;
         }
